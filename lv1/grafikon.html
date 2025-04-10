@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grafički prikaz vremenskih podataka">
+    <link rel="stylesheet" href="grafikon.css">
+    <title>Grafički Prikaz</title>
+</head>
+<body>
+    <header>
+        <h1>Grafički Prikaz Vremenskih Podataka</h1>
+    </header>
+
+    <main>
+        <!-- Pie Chart Section -->
+        <section class="chart-section">
+            <h2>Kružni Grafikon (Pie Chart)</h2>
+            <div class="chart-container">
+                <!-- Pie Chart -->
+                <div class="pie-chart" style="--slice-1: 40; --slice-2: 30; --slice-3: 20; --slice-4: 10;">
+                    <div class="tooltip">40% Sunny</div>
+                </div>
+
+                <!-- Info Next to Pie Chart -->
+                <div class="chart-info">
+                    <h3>Distribucija vremenskih uvjeta</h3>
+                    <ul>
+                        <li><span class="color-box" style="background-color: #3498db;"></span>Sunčano: 40%</li>
+                        <li><span class="color-box" style="background-color: #2ecc71;"></span>Oblačno: 30%</li>
+                        <li><span class="color-box" style="background-color: #f1c40f;"></span>Kišovito: 20%</li>
+                        <li><span class="color-box" style="background-color: #e74c3c;"></span>Vjetrovito: 10%</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025. Grafički Prikaz. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
