@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: 'Abel', sans-serif;
     margin: 0;
@@ -30,9 +30,9 @@ h1 {
     transform: scale(1.03);
 }
 
-/* Lightbox styles */
+
 .lightbox {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Ensure lightbox is above everything */
+    z-index: 1000; 
 }
 
 .lightbox img {
@@ -51,10 +51,10 @@ h1 {
 }
 
 .lightbox:target {
-    display: flex; /* Show lightbox when targeted */
+    display: flex; 
 }
 
-/* Close button */
+
 .close-btn {
     position: absolute;
     top: 20px;
@@ -62,14 +62,14 @@ h1 {
     font-size: 30px;
     color: white;
     text-decoration: none;
-    z-index: 1001; /* Ensure close button is above lightbox */
+    z-index: 1001; 
 }
 
 .close-btn:hover {
-    color: red; /* Highlight close button on hover */
+    color: red; 
 }
 
-/* Prevent scrolling when lightbox is open */
+
 body:has(.lightbox:target) {
     overflow: hidden;
 }

@@ -1,4 +1,4 @@
-/* Opći stilovi */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,14 +34,13 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Glavni sadržaj */
+
 main {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
 }
 
-/* Vremenski pregled */
 .weather-overview .data-container {
     display: flex;
     justify-content: space-around;
@@ -58,7 +57,7 @@ main {
     min-width: 200px;
 }
 
-/* Analiza */
+
 .analysis-flex {
     display: flex;
     justify-content: space-around;
@@ -88,9 +87,9 @@ main {
     height: 150px;
     border-radius: 50%;
     background: conic-gradient(
-        #3498db 0% 40%,  /* Sunčano */
-        #2ecc71 40% 75%,  /* Oblačno */
-        #f1c40f 75% 100%  /* Kišovito */
+        #3498db 0% 40%,  
+        #2ecc71 40% 75%,  
+        #f1c40f 75% 100% 
     );
     margin: 0 auto;
 }
@@ -102,12 +101,12 @@ main {
     border-radius: 5px;
 }
 
-/* Aside (Google Maps) */
+
 aside {
     margin-top: 20px;
 }
 
-/* Footer */
+
 footer {
     margin-top: 30px;
     padding: 10px;
@@ -115,7 +114,7 @@ footer {
     color: white;
 }
 
-/* Responzivnost */
+
 @media (max-width: 768px) {
     .data-container, .analysis-flex {
         flex-direction: column;
@@ -128,7 +127,7 @@ footer {
     }
 }
 
-/* Skriveni naslovi za pristupačnost */
+
 .sr-only {
     position: absolute;
     width: 1px;
